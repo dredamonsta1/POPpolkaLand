@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  height: 1500px;
+}
+
+.svg-container {
+  height: 100px;
+}
+
+.nav {
+  position: relative;
+  background-color: rgba(25, 0, 255, 0.911);
+  top: 0px;
+  height: 10px;
+  width: 85%;
+  left: 180px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.circle {
+  position: fixed;
+  background-color: plum;
+  width: 40px;
+  height: 40px;
+  top: 70px;
+  right: 100px;
+  border-radius: 50%;
+  top: 0;
+  opacity: .5;
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+}
+
+.circle:hover {
+  background-color: blanchedalmond;
+  border: 10px solid blanchedalmond;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-filter: blur(1.5rem);
+          filter: blur(1.5rem);
+}
+
+.layer {
+  position: fixed;
+  height: 10%;
+  z-index: 3;
+  opacity: .5;
+}
+
+.layer:hover {
+  position: fixed;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+  opacity: .3;
+}
+/*# sourceMappingURL=styles.css.map */
