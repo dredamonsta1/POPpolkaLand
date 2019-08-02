@@ -1,22 +1,11 @@
 
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="svg-container">
-  <svg width="159" height="138" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  Created with SVG-edit - https://github.com/SVG-Edit/svgedit
-    <g class="layer">
-      <title>Layer 1</title>
-      <ellipse class="littleDot" cx="84.5" cy="69.5" fill="black" id="svg_2" rx="74" ry="68" stroke="#000000" stroke-width="0"/>
-      <ellipse class="bigDot" cx="104.5" cy="49.5" fill="#ffffff" id="svg_4" rx="12" ry="14" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
-      </g>
-  </svg>
-</div>
 
-<div class="nav"></div>
   
 
 <div class="hello" style="text-align:center">  
     <h1>
-      Welcome to {{ title }}!
+       <span>{{ title }}!</span> 
     </h1>  
   </div>
 <!-- <div style="text-align:center"> -->
@@ -25,22 +14,34 @@
 
 
 
-<svg height="200" width="200">
-    <circle class="svgOne" cx="80" cy="80" r="40" stroke="black" stroke-width="0" fill="grey" fill-opacity="1" />
-</svg>
-  <!-- <img src="/src/image/circle.svg" alt=""> -->
+ 
+ 
 
-{{title}}
-
-<div class="background-image">
+<!-- <div class="background-image">
     <section>
         <div class="hero">
-            <img src="./img/space-911785_1920.jpg" alt="">
+            <img src="space-911785_1920.jpg" alt="">
             <h1 class="headline">Dream Big</h1>
         </div>
     </section>
 
-</div>
+</div> -->
+<!-- <div ng-init="myVar = './src/img/space-911785_1920'">
+    <h1>Angular</h1>
+    <img ng-src="{{myVar}}">
+</div> -->
 
-{{title}}
+
+{{ title }}No.1
+<div class="svg-container">
+    <svg width="159" height="138" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    Created with SVG-edit - https://github.com/SVG-Edit/svgedit
+      <g class="layer">
+        <title>Layer 1</title>
+        <ellipse class="littleDot" cx="84.5" cy="69.5" fill="black" id="svg_2" rx="74" ry="68" stroke="#000000" stroke-width="0"/>
+        <ellipse class="bigDot" cx="104.5" cy="49.5" fill="#ffffff" id="svg_4" rx="12" ry="14" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+        </g>
+    </svg>
+  </div>
+
 <router-outlet></router-outlet> 
