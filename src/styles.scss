@@ -91,14 +91,14 @@
 .jumbo_circle {
     position: relative;
     display: grid;
-    grid-template-columns: auto;
-    grid-gap: 6px;
-    padding: 5px;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-column-gap: 6px;
+    padding: 15px;
     // grid-template-columns: 10;
     // grid-template-rows: 10;
     
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     // align-items: center;
     left: 50%;
     right: 50%;
@@ -106,8 +106,13 @@
     // bottom: 50%;
     border-radius: 50%;
     background-color: black;
-    background-image: url('src/app/img/pop-art-1705441_1280.png')
+    background-image: url('src/app/img/pop-art-1705441_1280.png');
 
+}
+
+.img_zone_one {
+    background-image: url('src/app/img/pop-art-1705442.png');
+    top: 200px;
 }
 
 

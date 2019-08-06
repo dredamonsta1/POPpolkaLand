@@ -79,18 +79,23 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
-  grid-gap: 6px;
-  padding: 5px;
-  height: 500px;
-  width: 500px;
+  -ms-grid-columns: 15% 15% 15% 15% 15% 15%;
+      grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-column-gap: 6px;
+  padding: 15px;
+  height: 600px;
+  width: 600px;
   left: 50%;
   right: 50%;
   top: 150px;
   border-radius: 50%;
   background-color: black;
   background-image: url("src/app/img/pop-art-1705441_1280.png");
+}
+
+.img_zone_one {
+  background-image: url("src/app/img/pop-art-1705442.png");
+  top: 200px;
 }
 
 .footer {
