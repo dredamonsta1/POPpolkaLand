@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-
+*{
+    background-color: antiquewhite;
+}
 
 .svg-container{
     height: 0px;
@@ -11,7 +13,7 @@
 
 .hello {
     position: relative;
-    margin-top: 0px;
+    margin-top: -80px;
     margin-bottom: 0px;
     width: 511px;
     height: 100px;
@@ -85,6 +87,37 @@
 
 }
 
-code {
-    font: 1em sans-serif;
+
+.jumbo_circle {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 6px;
+    padding: 5px;
+    // grid-template-columns: 10;
+    // grid-template-rows: 10;
+    
+    height: 500px;
+    width: 500px;
+    // align-items: center;
+    left: 50%;
+    right: 50%;
+    top: 150px;
+    // bottom: 50%;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url('src/app/img/pop-art-1705441_1280.png')
+
 }
+
+
+.footer {
+    position: relative;
+    top: 200px;
+    bottom: 100%;
+
+}
+
+// code {
+//     font: 1em sans-serif;
+// }
