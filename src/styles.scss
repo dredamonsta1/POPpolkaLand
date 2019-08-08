@@ -29,6 +29,7 @@
 
 
 .circle {
+    display: inline;
     position: fixed;
     background-color: maroon;
     width: 100px;
@@ -111,8 +112,13 @@
 }
 
 .img_zone_one {
+    display: inline;
     background-image: url('src/app/img/pop-art-1705442.png');
-    top: 200px;
+    // top: 50%;
+    height: 500px;
+    width: 100px;
+    border-radius: 100% 0 0 100%;
+    bottom: 8;
 }
 
 
