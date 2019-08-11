@@ -89,12 +89,13 @@
 }
 
 
-.jumbo_circle {
+.container {
     position: relative;
-    display: grid;
-    grid-template-columns: 15% 15% 15% 15% 15% 15%;
-    grid-column-gap: 6px;
-    padding: 15px;
+    display: inline-grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 160px 60px 80px;
+    grid-column-gap: 1px;
+    padding: 1px;
     // grid-template-columns: 10;
     // grid-template-rows: 10;
     
@@ -112,15 +113,89 @@
 }
 
 .img_zone_one {
-    display: inline;
+    // display: inline;
     background-image: url('src/app/img/pop-art-1705442.png');
-    // top: 50%;
-    height: 500px;
-    width: 100px;
-    border-radius: 100% 0 0 100%;
+    // top: 250px;
+    justify-self: end;
+    grid-row: 3 / 6;
+    height: 90px;
+    width: 90px;
+    // border-top: 700px;
+    // border-radius: 100% 0 0 100%;
+    border-radius: 50%;
     bottom: 8;
 }
 
+.img_zone_two {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-row: 3 / 6;
+
+}
+
+.img_zone_three {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-row: 3 / 6;
+
+}
+
+.img_zone_four {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-row: 3 / 6;
+
+}
+
+.img_zone_five {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-row: 3 / 6;
+
+}
+
+.img_zone_six {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-row: 3 / 6;
+
+}
+.img_zone_seven {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-column: 3 / 6;
+
+}
+
+.img_zone_eight {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-column: 3 / 6;
+
+}
+
+.img_zone_nine {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: url('src/app/img/pop-art-1705442.png');
+    grid-column-end: 3 / 6;
+
+}
 
 .footer {
     position: relative;
